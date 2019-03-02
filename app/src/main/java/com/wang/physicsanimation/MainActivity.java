@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
         mBoundX = new FlingBoundAnimation(mBoundView, DynamicAnimation.TRANSLATION_X);
         mBoundY = new FlingBoundAnimation(mBoundView, DynamicAnimation.TRANSLATION_Y);
-        mBoundX.setFriction(0.5f);
-        mBoundY.setFriction(0.5f);
+        mBoundX.setFriction(0);
+        mBoundY.setFriction(0);
 
         mFlingX = new FlingAnimation(mFlingView, DynamicAnimation.TRANSLATION_X);
         mFlingY = new FlingAnimation(mFlingView, DynamicAnimation.TRANSLATION_Y);
